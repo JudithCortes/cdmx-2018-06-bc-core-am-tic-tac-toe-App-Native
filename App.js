@@ -146,7 +146,7 @@ renderIcon = (row,col) => {
             {this.renderIcon(2,2)}
         </TouchableOpacity>
         </View>
-        <View style = {{padding:50}}/>
+        <View style = {{padding:55}}/>
           <Button title = "Jugar de nuevo" onPress={this.onNewGamePress}/>
       </View>
     );
